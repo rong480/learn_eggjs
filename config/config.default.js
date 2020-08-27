@@ -23,8 +23,20 @@ module.exports = appInfo => {
     // myAppName: 'egg',
   };
 
+  config.security = {
+    csrf: {
+      enable: false
+    },
+    xframe: {
+      enable: false,
+    }
+  }
+
   return {
     ...config,
     ...userConfig,
   };
 };
+// module.exports = {
+//   cookies: {}
+// }

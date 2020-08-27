@@ -25,7 +25,7 @@
   "scripts": {
     "start": "egg-scripts start --daemon --title=egg-server-learn_egg",
     "stop": "egg-scripts stop --title=egg-server-learn_egg",
-    "dev": "egg-bin dev",
+    "serve": "egg-bin dev",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
